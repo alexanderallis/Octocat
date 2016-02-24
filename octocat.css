@@ -1,0 +1,197 @@
+html{
+  font-family: sans-serif;
+}
+body{
+}
+
+/*----------------HEADER---------------*/
+
+
+header{
+  background-color:#F5F5F5;
+  text-align: center;
+  height:3em;
+  font-size:.75em;
+  font-weight: 600;
+  padding:.5em 0em;
+  padding-top:1em;
+  border-bottom:solid lightgrey thin;
+}
+
+
+.header-wrapper{
+  width:68%;
+  min-width: 1000px;
+  margin:0 auto;
+  text-align: left;
+  border:none red thin;
+}
+
+header .octicon{
+  font-size: 2.25em;
+  padding-right:.25em;
+  border:none red thin;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+header a{
+  text-decoration: none;
+  color:black;
+  padding:0em .5em;
+  border:none red thin;
+}
+
+header input{
+  border: solid lightgrey thin;
+  border-radius:4px;
+  width: 37%;
+  padding:.4em;
+  color:rgb(180,180,180);
+  font-size:1em;
+}
+
+/*----------------BODY---------------*/
+
+.main{
+  width:68%;
+  margin:0 auto;
+  border: solid red thin;
+  margin-top:1.3em;
+  min-width: 1000px;
+}
+
+/*----------------ASIDE---------------*/
+
+aside{
+  width:23.5%;
+  border:solid blue thin;
+  display: inline-block;
+}
+
+img{
+  width:100%;
+  border-radius:5px;
+}
+
+.username{
+  padding:1em 0;
+}
+
+aside h1{
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+aside h2{
+  color:grey;
+  font-size:1.25em;
+  font-weight: 300;
+}
+
+.user-info{
+  padding:1em 0;
+  border-top:solid rgb(240,240,240) thin;
+  border-bottom:solid rgb(240,240,240) thin;
+}
+
+.user-info-sub{
+  font-size:.85em;
+  padding:.3em 0;
+}
+
+aside .octicon {
+  color:grey;
+  padding-right:.5em;
+}
+
+/*----------------MAIN-RIGHT---------------*/
+
+.main-right{
+  border:none red thin;
+  display:inline-block;
+  vertical-align: top;
+  margin-left:1em;
+}
+
+.tab{
+  display: inline-block;
+  font-size: .9em;
+  padding:.7em;
+  border:none lightgrey thin;
+  border-bottom:solid lightgrey thin;
+  border-radius: 3px 3px 0 0;
+  margin-right:-5px;
+}
+
+.clicked{
+  border:solid lightgrey thin;
+  border-bottom:none;
+}
+
+.tab-line{
+  display: inline-block;
+  border-bottom:solid lightgrey thin;
+  width:350px;
+  vertical-align: bottom;
+}
+
+.popular-repositories{
+  margin-top:1.2em;
+  border:solid lightgrey thin;
+  border-radius:5px;
+}
+
+.popular-repositories h1{
+    background-color:#F5F5F5;
+    font-size: .9em;
+    font-weight: 600;
+    padding:.75em .6em;
+}
+
+.pop-repo{
+  padding:.5em;
+  border-top:solid lightgrey thin;
+}
+
+.pop-repo-sub{
+  display:inline-block;
+  padding-left:.3em;
+  border:none red thin;
+}
+
+.pop-repo .octicon{
+  vertical-align: top;
+}
+
+.pop-repo-sub a{
+  text-decoration: none;
+  font-size:.9em;
+  font-weight:600;
+  color:#4078C0;
+  border:none red thin;
+}
+
+.pop-repo-sub p{
+  padding-top:.5em;
+  color:grey;
+  font-size: .75em;
+}
+
+.stars{
+  display: inline-block;
+  float: right;
+  padding:.5em;
+}
+
+.octicon-star{
+  display: inline-block;
+  color:grey;
+}
+
+.num-stars{
+  display: inline-block;
+  color:grey;
+  font-size: .8em;
+}
