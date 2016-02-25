@@ -79,6 +79,19 @@ $.getJSON("https://api.github.com/users/octocat/repos", function( json ){
 
 });
 
+// ------------------------------------------------------ALL REPOSITORIES
+
+$.getJSON("https://api.github.com/users/octocat/repos", function( json ){
+
+  var sorted = _.sortBy(json, "stargazers_count");
+
+  for(var i = sorted.length -1; i >= 0 ; i--){
+
+  $(".popular-repositories").append('<div class="pop-repo"><span class="octicon octicon-repo"></span><div class="pop-repo-sub"><a class="pop-repo-name-0"href="#">' + sorted[i].name + '</a><p>This repo is for demonstration purposes only.</p></div><div class="stars"><div class="num-stars num-stars-0">' + sorted[i].stargazers_count + '</div><div class="octicon octicon-star"></div></div></div> ');
+
+}
+
+
 // var people = [
 //   {
 //      "f_name":"john",

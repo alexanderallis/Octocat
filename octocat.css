@@ -57,7 +57,7 @@ header input{
 .main{
   width:68%;
   margin:0 auto;
-  border: solid red thin;
+  border: none red thin;
   margin-top:1.3em;
   min-width: 1000px;
 }
@@ -66,7 +66,7 @@ header input{
 
 aside{
   width:23.5%;
-  border:solid blue thin;
+  border:none blue thin;
   display: inline-block;
 }
 
@@ -137,10 +137,14 @@ aside .octicon {
   vertical-align: bottom;
 }
 
+/*----------------POPULAR-REPOSITORIES---------------*/
+
+
 .popular-repositories{
   margin-top:1.2em;
   border:solid lightgrey thin;
   border-radius:5px;
+  display:none;
 }
 
 .popular-repositories h1{
@@ -194,4 +198,95 @@ aside .octicon {
   display: inline-block;
   color:grey;
   font-size: .8em;
+}
+
+/*----------------ALL-REPOSITORIES---------------*/
+
+.all-repos{
+}
+
+.search-container{
+  border-bottom:solid lightgrey thin;
+  padding:.75em 0;
+}
+
+.repo-search{
+  display: inline-block;
+  padding:.75em;
+  border-radius:3px;
+  border:solid lightgrey thin;
+  color:rgb(180,180,180);
+  font-size: .75em;
+  vertical-align: bottom;
+}
+
+.repo-search-btn{
+  display: inline-block;
+  background-color:#F5F5F5;
+  border:solid lightgrey thin;
+  border-radius:3px;
+  color:black;
+  font-size: .8em;
+  font-weight: 600;
+  padding:.75em;
+  vertical-align: bottom;
+}
+
+.search-cont-right{
+  display:inline-block;
+  float:right;
+  vertical-align: bottom;
+  border:none red thin;
+  font-size: .9em;
+  font-weight: 400;
+}
+
+.search-cont-right a{
+  padding:0 .5em;
+  color:#4078C0;
+  text-decoration: none;
+}
+
+.individual-repos{
+  padding:2em 0;
+  border-bottom:solid lightgrey thin;
+}
+
+.individual-repo-text{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.individual-repos a{
+  color:#4078C0;
+  font-size:1.3em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.individual-repos a:hover{
+  text-decoration: underline;
+}
+
+.individual-repos p{
+  padding-top:1em;
+  font-size:.9em;
+  color:grey;
+  padding-bottom:1em;
+}
+
+.individual-repos span{
+  color:rgb(180,180,180);
+  font-size:.75em;
+}
+
+.repo-stats{
+  float:right;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.repo-stats span{
+  font-size: 1em;
+  color:grey;
+  font-weight: 600;
 }
